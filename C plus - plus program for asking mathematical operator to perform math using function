@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+void a()
+{
+	int num1, num2;
+	char opt;
+
+	cout << "enter the first number :  ";
+	cin >> num1;
+
+	cout << "enter the second number :  ";
+	cin >> num2;
+
+	cout << "enter the operation: +,-,*,/. ";
+	cin >> opt;
+
+	switch (opt)
+	{
+	case '+':
+		cout << num1 + num2;
+		break;
+	case '-':
+		cout << num1 - num2;
+		break;
+	case '/':
+		cout << num1 / num2;
+		break;
+	case '*':
+		cout << num1 * num2;
+		break;
+	default:
+		cout << " invalid operator";
+
+	}
+	/*return 0;*/
+}
+
+int main() 
+{
+
+	a();
+
+
+}
