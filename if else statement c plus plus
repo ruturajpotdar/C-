@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{	
+	int age;
+	cout << "please enter your age"<<endl;
+	cin >> age;
+	//implimenting if else statement
+	if (age < 18)
+	{
+		cout << "your age is not valid to enter the door" << endl;
+	}
+	else
+	{
+		cout << "door unlocked!" << endl;
+	}
+}
+
+
