@@ -15,6 +15,7 @@ int main()
 	{
 		cout << "door unlocked!" << endl;
 	}
+	return 0;
 }
 
 
