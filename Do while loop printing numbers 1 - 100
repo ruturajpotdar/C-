@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//printing numbers 1 to 100 using Dowhile loop
+	//implimenting Dowhileloop
+	int x = 1;
+	do
+	{
+		cout << x <<endl;
+		x++;
+	} while (x<=100);
+
+}
