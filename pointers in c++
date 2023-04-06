@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{ 
+	//pointers in c++
+	//pointers are variable that stores the memory address of an object.
+
+	int a = 15;
+	int* x = &a;
+	//& -----> to know the address of 'a'
+    cout << "The memory address of a is : "<<&x<<endl;
+
+	//* -----> to know the value which is stored in 'a'
+	cout << "The value of a is : " <<*x<<endl;
+
+	return 0;
+}
