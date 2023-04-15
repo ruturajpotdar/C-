@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	const int arraySize = 100;
+	// declaring array
+	int numbers[arraySize];
+	int currentNumber = 101;
+
+
+	//implimenting for loop 
+	for (int i = 0; i < arraySize; i++)
+	{
+		numbers[i] = currentNumber;
+		currentNumber++;
+
+	}
+
+	//printing array using for loop
+	for (int i = 0; i < arraySize; i++)
+	{
+		cout << numbers[i] << " "<<endl;
+	}
+	
+	return 0;
+
+
+}
