@@ -1,0 +1,22 @@
+//global variable is usually declared outside the function and can be accessed throughout the program :
+#include <iostream>
+using namespace std;
+
+int marks = 80; //global variable
+
+//creating a method
+void print()
+{
+    
+    cout << "your marks are : " << marks << endl;
+}
+
+int main()
+{
+    print(); //calling method
+
+    //here we can change the value of globle variable as we can accessed it throughout the code
+    marks = 95;
+    print(); //calling function again
+
+}
