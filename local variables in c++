@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+//creating a method
+void print()
+{
+    int marks = 80; //local variable
+    cout << "your marks are : " << marks << endl;
+}
+
+int main()
+{
+    print(); //calling method
+}
+return 0;
